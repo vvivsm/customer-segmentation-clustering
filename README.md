@@ -134,7 +134,3 @@ Run the notebook cells from top to bottom.
 - Export final cluster profiles to CSV
 - Add model artifact saving for repeatable downstream use
 - Add interactive visualizations for exploring segments
-
-## License
-
-No license has been specified yet. Add a license before allowing others to reuse or distribute this work.
