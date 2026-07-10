@@ -21,27 +21,8 @@ This notebook walks through an end-to-end clustering workflow:
 |-- customer-segmentation-clustering.ipynb
 |-- requirements.txt
 |-- .gitignore
-|-- .editorconfig
 `-- README.md
 ```
-
-## Dataset
-
-The notebook expects a local CSV file named:
-
-```text
-CA2-Customer-Data.csv
-```
-
-Expected columns:
-
-- `CustomerID`
-- `Gender`
-- `Age`
-- `Income (k$)`
-- `How Much They Spend`
-
-The dataset is not currently included in this repository. Place `CA2-Customer-Data.csv` in the project root before running the notebook.
 
 ## Methods Used
 
@@ -108,11 +89,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Add the dataset
-
-Place `CA2-Customer-Data.csv` in the project root.
-
-### 5. Run the notebook
+### 4. Run the notebook
 
 ```bash
 jupyter notebook customer-segmentation-clustering.ipynb
